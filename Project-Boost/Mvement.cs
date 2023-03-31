@@ -9,12 +9,14 @@ public class Mvement : MonoBehaviour
     Rigidbody rb;
 
     // Start is called before the first frame update
+    // Awal frame dijalankan
     void Start()
     {
       rb = GetComponent<Rigidbody>();  
     }
 
     // Update is called once per frame
+    // Update setiap frame
     void Update()
     {
        ProcessThrust();
